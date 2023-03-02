@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       div > div > strong { /* 자식 셀렉터,  > 자식*/
+            background : yellow;
+        }
+
+        ul strong { /* 자손 셀렉터, 모든 자손*/
+            color : dodgerblue ;
+        }
+    </style>
+</head>
+<body>
+    <h3>Web Programming</h3>
+    <hr>
+    <div>
+        <div>2학기 <strong>학습 내용</strong></div>
+            <ul>
+                <li>HTML5</li>
+                <li><strong>CSS</strong></li>
+                <li>JAVASCRIPT</li>
+            </ul>
+        <div>60점 이하는 F!</div>
+    </div>
+</body>
+</html>
