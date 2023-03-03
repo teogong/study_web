@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 함수는 head에 보통 넣는다, src-->
+    <!-- <script src="#">
+       // alert('Hello, world!');
+    </script> -->
+</head>
+<body>
+    <!-- 실행문은 body에 넣기도함. -->
+    <script>
+        // alert('Hello, world!');
+        // let message = 'Hello!'; // 변수를 정의하고 값을 할당합니다.
+
+        // alert(message); // Hello!
+
+
+        // //<문자열>
+        // let name = "John";
+
+        // // 변수를 문자열 중간에 삽입
+        // alert( `Hello, ${name}!` ); // Hello, John!
+
+        // // 표현식을 문자열 중간에 삽입
+        // alert( `the result is ${1 + 2}` ); // the result is 3
+
+
+        // //<상호작용>
+        // let age = prompt('나이를 입력해주세요.', 100);
+            
+        // alert(`당신의 나이는 ${age}살 입니다.`); // 당신의 나이는 100살입니다.
+
+        // let isBoss = confirm("당신이 주인인가요?");
+
+        // alert( isBoss ); // 확인 버튼을 눌렀다면 true가 출력됩니다.
+
+
+        // //<연산>
+        // alert( '1' + 2 ); // "12"
+        // alert( 2 + '1' ); // "21"
+
+        // alert(2 + 2 + '1' ); // '221'이 아니라 '41'이 출력됩니다.
+
+        // alert( 6 - '2' ); // 4, '2'를 숫자로 바꾼 후 연산이 진행됩니다.
+        // alert( '6' / '2' ); // 3, 두 피연산자가 숫자로 바뀐 후 연산이 진행됩니다.
+
+        // // 숫자형이 아닌 피연산자는 숫자형으로 변화합니다.
+        // alert( +true ); // 1
+        // alert( +"" );   // 0
+
+        // // 이항 덧셈 연산자가 적용되기 전에, 두 피연산자는 숫자형으로 변화합니다.
+        // alert( +apples + +oranges ); // 5
+        // console.log( +apples + +oranges );
+
+        // //<할당연산자>
+        // let c = 3 - (a = b + 1);
+
+        // let a, b;
+
+        // a = b = c = 2 + 2;
+
+        // //<다중'?'>
+        // let age = prompt('나이를 입력해주세요.', 18);
+
+        // let message = (age < 3) ? '아기야 안녕?' :
+        // (age < 18) ? '안녕!' :
+        // (age < 100) ? '환영합니다!' :
+        // '나이가 아주 많으시거나, 나이가 아닌 값을 입력 하셨군요!';
+
+        // console.log( message );
+
+        // // <nullish>
+        // let firstName = null;
+        // let lastName = null;
+        // let nickName = "바이올렛";
+
+        // // null이나 undefined가 아닌 첫 번째 피연산자
+        // alert(firstName ?? lastName ?? nickName ?? "익명의 사용자"); // 바이올렛
+
+
+        //<함수>
+        let userName = 'John'; // 함수 밖에서 사용하는것이 전역변수이다. 
+        function showMessage()  {
+            alert('Hello!');
+        }
+        showMessage();
+    </script>
+</body>
+</html>
+
+<!-- use strict 버전6부터 호환하게한다.
+    <변수>
+    let 로컬변수라고 생각하면됨
+    bar 자기가 생성된 함수  모르고 쓰면 낭패니 아에 쓰면하지마라
+    변수명은 카멜 표기법 따름
+    변수면에 $,_을 사용하시만 -이거는 못쓴다.
+
+    <상수>
+    const 붙인다.
+
+    <자료형>
+    숫자형
+    문자형
+    불린형
+    null 값이 없는것
+    undefined 값이 할당되지 않은것
+
+    <상호작용>
+    prompt
+    confirm
+    
+    문자형 변환
+    숫자형 변환
+
+    <다른 형을 가진 값 간의 비교>
+    비교하려는 값의 자료형이 다르면 자바스크립트는 이 값들을 숫자형으로 바꿉니다.
+    
+    <일치 연산자>
+    동등 연산자(equality operator) ==은 0과 false를 구별하지 못합니다.
+    일치 연산자(strict equality operator) ===를 사용하면 형 변환 없이 값을 비교할 수 있습니다.
+
+    <nullish>
+    a ?? b의 평가 결과는 다음과 같습니다.
+    a가 null도 아니고 undefined도 아니면 a
+    그 외의 경우는 b
+
+    <함수>
+    return과 값 사이에 절대 줄을 삽입하지 마세요.
+    frist class function 지원언어
+
+    함수표현식과 함수선언문
+
+    함수 표현식은 실제 실행 흐름이 해당 함수에 도달했을 때 함수를 생성합니다. 
+    따라서 실행 흐름이 함수에 도달했을 때부터 해당 함수를 사용할 수 있습니다.
+    
+    sayHi("John"); // Hello, John
+
+    function sayHi(name) {
+    alert( `Hello, ${name}` );
+    }
+    함수 선언문은 함수 선언문이 정의되기 전에도 호출할 수 있습니다.
+
+    <화살표 함수>
+    람다식
+    
+-->
+
+<!--    객체    mogoDB와 비숫함
+    let user = {     // 객체
+    name: "John",  // 키: "name",  값: "John"
+    age: 30        // 키: "age", 값: 30
+    };    
+-->
+<!-- 배열   mogoDB와 비숫함
+    let fruits = ["사과", "오렌지", "자두"];
+
+    // 배열 요소를 대상으로 반복 작업을 수행합니다.
+    for (let fruit of fruits) {
+    alert( fruit );
+    }
+
+    객체를 돌리는것은 in
+    let arr = ["사과", "오렌지", "배"];
+
+    for (let key in arr) {
+    alert( arr[key] ); // 사과, 오렌지, 배
+    }
+-->
+<!-- Date  mogoDB와 비숫함 -->
+<!-- 클래스는 개인적으로보고 브라우저에서는 클래스를 쓸일이 99프로 없다. -->
+<!-- 자바스크립트로 ajax할때 프라미스와 async, await 이것을 이용해서 구현, 
+     jQuery쓰지말자 왜냐면 옛날에 사용했던거-->
