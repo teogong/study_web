@@ -1,0 +1,129 @@
+ex01_HTML
+	test01 html 맛보기
+	test02 css 맛보기
+	test03 javascript 맛보기
+	ex01 화면에 글자 출력
+	ex02 h태그 헤드라인
+	ex03 p태그 하나의 단락취그
+	ex04 hr태그 수평선 긋기
+	ex05 br태그 새로운 줄 넘어가기
+	ex06 텍스트 꾸미기
+	ex07 dvi 블럭 태그, span 인라인 태그
+	ex08 이미지 삽입
+	ex09 ol태그 Ordered list
+	ex10 ul태그 Unordered list
+	ex11 ol,ul 태그
+	ex12 table태그 기본 구조를 가진 표
+	ex13 table태그 표에 이미지 삽입
+	ex14 a태그 링크 만들기
+	ex15 a태그 페이지 내에 링크 "#~~~"
+	ex16 a태그 download
+	ex17 video태그 비디오 삽입
+
+ex02_HTML
+	ex01 form태그 클라이언트에서 서버쪽으로 데이터를 보내고 싶을 때  반드시 
+        form태크 사용해야 안에 있는 내용이 날라간다.
+	ex02 textarea태그 여러줄 쓸수 있고 로우가 넘어가며 자도으로 스클롤바가 생긴다.
+	ex03 datalist태그 직접 칠수있고 선택할수 있게하는것이 input타입에 datalist넣어야한다.
+	ex04 button태그
+	ex05 input태그에 checkbox 타입
+	ex06 input태그에 radio 타입
+	ex07 option태그
+	ex08 label태그
+	ex09 label태그 ex06과의 차이점은 그림을 찍어도 선택이 된다.
+	ex10 input태그 체인지가 일어났을때 바뀐 색상으로 변경해라
+	ex11 input태그 시간 정보 입력 HTML5 폼 요소들
+	ex12 input태그 홈 제어 시스템 - 온도 조절
+	ex13 input태그 회원 정보
+	ex14 fieldset태그 박스처줌
+
+ex03_CSS
+	ex01 CSS 스타일 맛보기
+	ex02 태그
+	ex03 css 파일 사용법 2가지
+	ex04 모든 태그에 적용 법
+	ex05 태그 타입 셀렉터
+	ex06 class 셀렉터
+	ex07 id 셀렉터
+	ex08 자식 셀렉터, 자손 셀렉터
+	ex09 가상클래스(마우스 커서)
+	ex10 ex01번부터 ex09까지 보습
+	ex11 텍스트 꾸미기
+	ex12 폰트 꾸미기
+	ex13 마진과 패딩
+	ex14 마진과 패딩
+	ex15 다양한 테두리
+	ex16 둥근 모서리 테두리
+	ex17 div 박스에 배경 꾸미기
+	ex18 텍스트 그림자 만들기
+	ex19 박스 그림자 만들기
+	ex20 마우스 커서
+
+ex04_CSS
+	ex01 DIV는 블록 박스
+	ex02 SPAN은 인라인 박스
+	ex03 span의 display : block;
+	ex04 div의 display: inline;
+	ex05 div의 display: inline-block;
+	ex06 인라인, 인라인 블록, 블록
+	ex07 상대 배치, relative
+	ex08 절대 배치
+	ex09 fixed
+	ex10 뷰포트 float
+	ex11 z-index 프로퍼티
+	ex12 visibility:hidden;, display: none;이 상요처
+	ex13 list-style
+	ex14 네비게이션바 list로 만들기
+	ex15~ex16 테이블 꾸미기
+	ex07 input으로 타입 받기, focus
+
+JavaScript
+	ex01 꼭 봐야할 부분만 링크에서 찾아보기(https://ko.javascript.info/)
+	ex02 자바스크립트 파일 받는법 src="fruit.js"
+	ex03 링크의 href에 자바스크립트 작성
+	ex04 write로 코드 작성할수 있다.
+	ex05 write로 for 문 작성
+	ex06 구구단 출력 함수 만들기
+	ex07 프로퍼티, 리터럴 표기법으로 사용자 객체 만들기
+	ex08 Account 프로토타입 만들기
+
+
+DOM
+	ex01 DOM 객체 p의 프로퍼티, 스타일, 이벤트 리스너, querySelector 사용권장
+	ex02 CSS 스타일 동적 
+	ex03 innerHTML 활용 : 아래 글자에 클릭하면 예쁜 강아지가 보입니다.
+	ex04 this 활용
+	ex05 onload="printProperties()
+	ex06 tag로 모두 가져오기
+	ex07 class로 모두 가져오기
+	ex08 write()와 writeln()
+	ex09 write()를 잘못 사용하는 예
+	ex10 DIV 객체를 동적으로 생성, 삽입, 삭제하는 예제
+
+
+
+event
+	ex01 HTML 태그에 리스너 작성
+	ex02 DOM 객체의 이벤트 리스너 프로퍼티에 함수 등록
+	ex03 addEventListener()를 이용한 리스너 등록
+	ex04 발생하는 이벤트에 따라서 정보가 다르다
+	ex05 이벤트 객체의 프로퍼티 출력
+	ex06 이벤트의 디폴트 행동 취소
+	ex07 캡쳐단계 버블단계 currentTarget
+	ex08 onclick, 계산기 만들기,eval
+	ex09 마우스 관련 이벤트 리스너
+	ex10 screen, client, offset
+	ex11 oncontextmenu에서 컨텍스트 메뉴 금지
+	ex12 강제로 입력하게 할때 focus를 이용해서 함수 만들기
+	ex13 버튼을 클릭하면 선택된 라디오 버튼의 value를 출력합니다.
+	ex14 선택하면 자동 계산되게 만들기
+	ex15 select객체를 이용해서 선택한 이미지 출력하기
+	ex16 키 리스너와 키 이벤트 객체의 프로퍼티
+	ex17 상하좌우 키로 셀 이동하기
+
+BOM
+	ex01 window.open()으로 윈도우 열기
+	ex02 텍스트가 자동 회전하며, 마우스로 클릭하면 중단합니다.
+	ex03 웹 페이지 프린트
+	ex04 onbeforeprint, onafterprint 이벤트 예
+	ex05 history 객체 활용
